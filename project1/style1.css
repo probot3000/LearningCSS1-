@@ -1,0 +1,22 @@
+.box1 {
+    background-color: grey;
+    width: 680px;
+    height: 500px;
+}
+
+.box2 {
+    background-color: yellow;
+    width: 450px;
+    height: 300px;
+}
+
+.text1 {
+    color: black;
+    font-size: 30px;
+
+}
+
+.text2 {
+    color: black;
+    font-size: 30px;
+}

@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBEBEB;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+
+.header-container {
+    background-color: rgb(60, 60, 60);
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col   {
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: rgb(10, 170, 122);
+}
+
+.col p {
+    font-size: 0.875rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}
+
+.mybutton {
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-left: 20px;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+
+.mob-wrapper {
+    display: none;
+}
+
+
+/* 
+.navbutton {
+    display: inline-block;
+    color: white;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid white;
+    
+} */
+
+
+/* nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px 25px;
+    margin-left: 20px;
+}
+ */
+
+
+ .hide-desktop-only {
+    display: none;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col p::first-line {
+    font-weight: bold;
+}
+
+
+
+
+/* Tablet view */
+@media (max-width: 750px) {
+
+.col {
+    width: 45%;
+}
+
+.hide-desktop-only {
+    display: block;
+}
+
+.header-container {
+    position: relative;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    display: block;
+}
+
+.logo {
+    padding: 40px 0;
+}
+
+.mybutton {
+    margin-left: 0;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.navbutton {
+    display: block;
+    background-color: coral;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+/* Mobile view */
+@media (max-width: 400px) {
+
+.col {
+    width: 100%;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
